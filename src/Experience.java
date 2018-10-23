@@ -15,6 +15,7 @@ public class Experience {
     }
 
     public Experience() {
+
     }
 
     public ArrayList<Duty> getDute() {
@@ -47,11 +48,11 @@ public class Experience {
     }
 
 
-    public void setDute()
-    {
+    public void setDute() {
         this.duties = duties;
     }
-    public void addDuty(Duty duty){
+
+    public void addDuty(Duty duty) {
 
         this.duties.add(duty);
     }
